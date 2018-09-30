@@ -1,0 +1,32 @@
+[debug] [2018-09-30T13:09:00.260Z] ----------------------------------------------------------------------
+[debug] [2018-09-30T13:09:00.264Z] Command:       /usr/bin/node /usr/local/bin/firebase serve
+[debug] [2018-09-30T13:09:00.264Z] CLI Version:   4.2.1
+[debug] [2018-09-30T13:09:00.264Z] Platform:      linux
+[debug] [2018-09-30T13:09:00.264Z] Node Version:  v8.10.0
+[debug] [2018-09-30T13:09:00.264Z] Time:          Sun Sep 30 2018 18:39:00 GMT+0530 (IST)
+[debug] [2018-09-30T13:09:00.265Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-09-30T13:09:00.279Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-09-30T13:09:00.279Z] > authorizing via signed-in user
+[debug] [2018-09-30T13:09:00.282Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/pk-home  
+ 
+[debug] [2018-09-30T13:09:02.301Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-30T13:09:02.303Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/pk-home  
+ 
+[debug] [2018-09-30T13:09:04.543Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/prasanta/myproject/pk-home'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-09-30T13:09:05.641Z] Fetching environment
+[debug] [2018-09-30T13:09:05.645Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/421147871607:getServerAppConfig  
+ 
+[debug] [2018-09-30T13:09:05.646Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/421147871607/clients/_:getWebAppConfig  
+ 
+[debug] [2018-09-30T13:09:06.486Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-30T13:09:06.488Z] Starting @google-cloud/functions-emulator
+[debug] [2018-09-30T13:09:06.561Z] <<< HTTP RESPONSE 200
+[info] i  hosting[pk-home]: Serving hosting files from: public
+[info] ✔  hosting[pk-home]: Local server: http://localhost:5000
+[debug] [2018-09-30T13:09:10.201Z] Parsing function triggers
+[info] i  functions: No HTTPS functions found. Use firebase functions:shell if you would like to emulate other types of functions.
