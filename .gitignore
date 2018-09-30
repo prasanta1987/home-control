@@ -2,4 +2,3 @@ node_modules
 database.rules.json
 %RESOURCE_DIR%
 firebase-debug.log
-fb-config.js

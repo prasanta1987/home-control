@@ -1,16 +1,4 @@
 
-// Initialize Firebase with your credentials
-// var config = {
-//     apiKey: "",
-//     authDomain: "",
-//     databaseURL: "",
-//     projectId: "",
-//     storageBucket: "",
-//     messagingSenderId: ""
-// };
-// firebase.initializeApp(config);
-
-
 //Get Dom Element
 const relayContainer = document.querySelector('#relay')
 const temphumiContainer = document.querySelector('#dht')
