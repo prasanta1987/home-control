@@ -101,7 +101,6 @@ getRouter.on('child_changed', snap => {
 })
 
 function routerStatUpdate(key, data) {
-    console.log(key,data)
     if (!document.getElementById(key + 'rou')) {
         li = document.createElement('li')
         li.id = key + 'rou'
